@@ -1,0 +1,43 @@
+form input,
+form button {
+  padding: 0.5rem;
+  background: white;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+.filter-todo {
+  padding: 1rem;
+}
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  font-size: 1rem;
+}
+
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
